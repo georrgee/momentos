@@ -18,13 +18,13 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: 'cbedbfd08d663528aa47744c561aa546',
+  secret: '703109e1b782cecd23f16772611cd578',
 
   adapter: 'connect-mongo',
-  url: 'mongodb://fullstackadmin:caucau28@cluster0-shard-00-00-xznc0.mongodb.net:27017,cluster0-shard-00-01-xznc0.mongodb.net:27017,cluster0-shard-00-02-xznc0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
-  // url: 'mongodb://fullstackadmin:fullstackadmin111@ds353457.mlab.com:53457/heroku_xwmw4z62',
-  // url: 'mongodb://fullstackadmin:fullstackadmin111@ds017195.mlab.com:17195/fullstacksocial',
+  //url: 'mongodb://fullstackadmin:caucau28@cluster0-shard-00-00-xznc0.mongodb.net:27017,cluster0-shard-00-01-xznc0.mongodb.net:27017,cluster0-shard-00-02-xznc0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
+  url: 'mongodb://georrgee:caucau28@ds153659.mlab.com:53659/heroku_dqp38688',
   collection: 'sessions',
+
 
   /***************************************************************************
   *                                                                          *

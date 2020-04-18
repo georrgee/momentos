@@ -6,11 +6,11 @@ module.exports = async function(req, res) {
 
     const userId = req.session.userId // current user
 
-    const allPosts = await Post.find({user: userId})
+    const allPosts = await Post.find({user: userId}) // loading all POST Objects
     .populate('user')
     .sort('createdAt DESC')
 
-    //return res.send(allPosts)
+    // return res.send(allPosts)
 
     res.view('pages/post/home', {
         allPosts

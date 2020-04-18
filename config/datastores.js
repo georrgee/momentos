@@ -51,6 +51,9 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
+    adapter: 'sails-mongo',
+    //url: 'mongodb://fullstackadmin:caucau28@cluster0-shard-00-00-xznc0.mongodb.net:27017,cluster0-shard-00-01-xznc0.mongodb.net:27017,cluster0-shard-00-02-xznc0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
+    url: 'mongodb://georrgee:caucau28@ds153659.mlab.com:53659/heroku_dqp38688'
   },
 
 
