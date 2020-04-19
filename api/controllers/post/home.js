@@ -16,6 +16,3 @@ module.exports = async function(req, res) {
         allPosts
     })
 }
-
-// STOPPED AT 7. SET UP MONGODB DATASTORE AND DEBUGGING
-// YOU ARE NOW AT REGISTER AND LOGIN (4-18-2020)
