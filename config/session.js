@@ -11,6 +11,10 @@
 
 module.exports.session = {
 
+  cookie: {
+    _expires: 365 * 24 * 60 * 60 * 1000
+  },
+
   /***************************************************************************
   *                                                                          *
   * Session secret is automatically generated when your new app is created   *
@@ -21,6 +25,7 @@ module.exports.session = {
   secret: 'cbedbfd08d663528aa47744c561aa546',
 
   adapter: 'connect-mongo',
+  
   url: 'mongodb://fullstackadmin:caucau28@cluster0-shard-00-00-xznc0.mongodb.net:27017,cluster0-shard-00-01-xznc0.mongodb.net:27017,cluster0-shard-00-02-xznc0.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
   // url: 'mongodb://fullstackadmin:fullstackadmin111@ds353457.mlab.com:53457/heroku_xwmw4z62',
   // url: 'mongodb://fullstackadmin:fullstackadmin111@ds017195.mlab.com:17195/fullstacksocial',
